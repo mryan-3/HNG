@@ -7,7 +7,7 @@ app.get('/api', (req, res) => {
     const current_day = moment().utc().format('dddd')
     const utc_time = moment.utc().format('YYYY-MM-DDTHH:mm:ss\\Z')
     const track = req.query.track
-    const github_file_url = ''
+    const github_file_url = 'https://github.com/mryan-3/HNG/blob/main/stageone/index.js'
     const github_repo_url = 'https://github.com/mryan-3/HNG.git'
     const status_code = res.statusCode
 
