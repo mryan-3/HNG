@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const now = new Date();
-now.setMilliseconds(0);
 const moment = require('moment')
 
 app.get('/api', (req, res) => {
